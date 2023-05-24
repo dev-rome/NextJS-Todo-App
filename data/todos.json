@@ -1,0 +1,16 @@
+{
+  "todo-list": [
+    {
+      "id": "1",
+      "text": "Walk Dog"
+    },
+    {
+      "id": "2",
+      "text": "Study Code"
+    },
+    {
+      "id": "3",
+      "text": "Cook Dinner"
+    }
+  ]
+}
