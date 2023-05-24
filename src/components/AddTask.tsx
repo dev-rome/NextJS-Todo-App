@@ -8,7 +8,7 @@ import { v4 as uuidv4 } from "uuid";
 import Modal from "@/components/Modal";
 
 const AddTask = () => {
-    const router = useRouter();
+  const router = useRouter();
   const [showModal, setShowModal] = useState<boolean>(false);
   const [newTodo, setNewTodo] = useState<string>("");
 
