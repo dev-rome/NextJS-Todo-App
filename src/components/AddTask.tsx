@@ -1,6 +1,6 @@
 "use client";
 
-import { addTodo } from "@/app/api/route";
+import { addTodoItem } from "@/app/api/route";
 import { useState } from "react";
 import { AiOutlinePlus } from "react-icons/ai";
 import { useRouter } from "next/navigation";
@@ -17,7 +17,7 @@ const AddTask = () => {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    await addTodo({
+    await addTodoItem({
       id: uuidv4(),
       text: newTodo,
     });
