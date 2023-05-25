@@ -3,7 +3,7 @@
 
 This project is a Todo application built with Next.js, TypeScript, and Tailwind CSS. It is a personal project aimed at mastering Next.js and TypeScript through practical implementation.
 
-![Prompts Project](./public/assets/images/todo-app.png)
+![Todo-App Project](./public/assets/images/todo-app.png)
 
 ## Table of Contents
 
